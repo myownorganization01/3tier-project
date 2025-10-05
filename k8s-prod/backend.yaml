@@ -44,7 +44,7 @@ metadata:
   namespace: prod
 spec:
   selector:
-    app: backend
+    app: backend-svc
   ports:
     - port: 5000
       targetPort: 5000

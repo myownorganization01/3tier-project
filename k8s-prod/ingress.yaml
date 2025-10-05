@@ -44,8 +44,4 @@ spec:
                 name: frontend-svc
                 port:
                   number: 80
-  tls:
-    - hosts:
-        - myapp.com
-        - www.myapp.com
-      secretName: adityajaiswal-co-tls
+
